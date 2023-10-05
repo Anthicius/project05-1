@@ -115,7 +115,7 @@ function CustomUi({ e, id, data, onClose}) {
               />
             </label>
             <label className="other">
-              <span>time:</span>
+              <span>Time:</span>
               <input
                 type="time"
                 onChange={(e) => setTime(e.target.value)}

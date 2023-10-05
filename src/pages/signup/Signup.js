@@ -28,15 +28,15 @@ const Signup = () => {
         <form onSubmit={signupHandler}>
             <label>
                 Email
-                <input name="Email" type="email" placeHolder="Email" onChange={(e)=>setEmail(e.target.value)} value={email}/>
+                <input name="Email" type="email" placeholder="Email" onChange={(e)=>setEmail(e.target.value)} value={email}/>
             </label>
             <label>
                 Display name:
-                <input name="DisplayName" type="text" placeHolder="Display Name" onChange={(e)=>setDisplayName(e.target.value)} value={displayName}/>
+                <input name="DisplayName" type="text" placeholder="Display Name" onChange={(e)=>setDisplayName(e.target.value)} value={displayName}/>
             </label>
             <label>
                 Password
-                <input name="Password" type="password" placeHolder="Password" onChange={(e)=>setPassword(e.target.value)} value={password}/>
+                <input name="Password" type="password" placeholder="Password" onChange={(e)=>setPassword(e.target.value)} value={password}/>
             </label>
             <button className='submit'>Submit</button>
             <Link to={`/login`}>Have an account? Log in!</Link> <br/>

@@ -71,11 +71,11 @@ const Activity = () => {
       setShowButton(true);
       return;
     } else {
-      joinedUsers.push(currentUser.displayName, "Volunteer"); // Directly push "Volunteer" to the array
+      joinedUsers.push(currentUser.displayName, "Volunteer"); 
       projectFirestore.collection("Activities").doc(id).update({ joinedUsers });
       setShowButton(false);
       const emailData = {
-        to: data.contactInfo, // The email address of the coordinator
+        to: data.contactInfo,
         subject: "A user joined your activity",
         text: `A user ${currentUser.displayName} has joined your activity "${data.title}"`,
       };

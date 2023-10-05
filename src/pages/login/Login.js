@@ -31,11 +31,11 @@ const Login = () => {
         <form onSubmit={loginHandler}>
             <label>
                 Email
-                <input name="Email" type="email" placeHolder="Email" onChange={(e)=>setEmail(e.target.value)} value={email}/>
+                <input name="Email" type="email" placeholder="Email" onChange={(e)=>setEmail(e.target.value)} value={email}/>
             </label>
             <label>
                 Password
-                <input name="Password" type="password" placeHolder="Password" onChange={(e)=>setPassword(e.target.value)} value={password}/>
+                <input name="Password" type="password" placeholder="Password" onChange={(e)=>setPassword(e.target.value)} value={password}/>
             </label>
             <button className='submit'>Submit</button>
             <Link to={`/signup`}>Sign Up!</Link>

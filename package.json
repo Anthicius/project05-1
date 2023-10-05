@@ -5,7 +5,7 @@
   "dependencies": {
     "@capacitor/android": "^5.0.0",
     "@capacitor/app": "5.0.2",
-    "@capacitor/core": "5.0.3",
+    "@capacitor/core": "5.0.4",
     "@capacitor/haptics": "5.0.2",
     "@capacitor/keyboard": "5.0.2",
     "@capacitor/status-bar": "5.0.2",
@@ -35,8 +35,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -59,7 +59,6 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "5.0.3"
+    "@capacitor/cli": "5.0.4"
   }
-
 }

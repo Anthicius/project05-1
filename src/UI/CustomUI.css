@@ -1,6 +1,6 @@
   .popup-overlay {
     background-color: rgba(240, 237, 237, 0.988);
-    margin-top: 25%;
+    margin-top: 15%;
     border-radius: 3%;
   }
   .react-confirm-alert-overlay {
@@ -11,7 +11,7 @@
 
   @media (max-device-height: 900px) {
     .popup-overlay {
-      margin-top: 210%; /* Adjust this value as needed */
+      margin-top: 40%; 
     }
   }
 

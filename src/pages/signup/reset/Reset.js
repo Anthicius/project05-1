@@ -28,7 +28,7 @@ const Reset = () => {
           <input
             name="Email"
             type="email"
-            placeHolder="Email"
+            placeholder="Email"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
